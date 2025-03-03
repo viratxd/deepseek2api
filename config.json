@@ -5,24 +5,16 @@
   ],
   "accounts": [
     {
-      "email": "example1@example.com",
-      "password": "password1",
+      "email"="cuadrastassonr.b.axc2.057@gmail.com",
+    "password"="asdqwerty",
       "token": ""
     },
     {
-      "email": "example2@example.com",
-      "password": "password2",
-      "token": ""
-    },
-    {
-      "mobile": "12345678901",
-      "password": "password3",
-      "token": ""
-    },
-    {
-      "mobile": "12345678901",
-      "password": "password4",
+      "email"="cuadrastassonr.b.axc2.057@gmail.com",
+    "password"="asdqwerty",
       "token": ""
     }
+   
+    
   ]
 }
