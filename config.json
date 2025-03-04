@@ -5,16 +5,14 @@
   ],
   "accounts": [
     {
-      "email"="cuadrastassonr.b.axc2.057@gmail.com",
-    "password"="asdqwerty",
+      "email": "cuadrastassonr.b.axc2.057@gmail.com",
+      "password": "asdqwerty",
       "token": ""
     },
     {
-      "email"="cuadrastassonr.b.axc2.057@gmail.com",
-    "password"="asdqwerty",
+      "email": "cuadrastassonr.b.axc2.057@gmail.com",
+      "password": "asdqwerty",
       "token": ""
     }
-   
-    
   ]
 }
