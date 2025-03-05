@@ -548,7 +548,7 @@ def messages_prepare(messages: list) -> str:
     return final_prompt
 
 # 添加保活超时配置（5秒）
-KEEP_ALIVE_TIMEOUT = 5
+KEEP_ALIVE_TIMEOUT = 35
 
 # ----------------------------------------------------------------------
 # (10) 路由：/v1/chat/completions
