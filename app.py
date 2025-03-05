@@ -548,7 +548,7 @@ def messages_prepare(messages: list) -> str:
     return final_prompt
 
 # 添加保活超时配置（5秒）
-KEEP_ALIVE_TIMEOUT = 5
+KEEP_ALIVE_TIMEOUT = 10
 
 # ----------------------------------------------------------------------
 # (10) 路由：/v1/chat/completions
@@ -833,6 +833,7 @@ async def chat_completions(request: Request):
     finally:
         if getattr(request.state, "use_config_token", False) and hasattr(request.state, "account"):
             release_account(request.state.account)
+
 
 # ----------------------------------------------------------------------
 # (11) 路由：/
