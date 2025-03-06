@@ -612,7 +612,7 @@ def messages_prepare(messages: list) -> str:
 
 
 # 添加保活超时配置（5秒）
-KEEP_ALIVE_TIMEOUT = 120
+KEEP_ALIVE_TIMEOUT = 5
 
 
 # ----------------------------------------------------------------------
@@ -1019,4 +1019,4 @@ def index(request: Request):
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=5001)
+    uvicorn.run(app, host="0.0.0.0", port=5001, timeout_keep_alive=120)
