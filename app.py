@@ -612,7 +612,7 @@ def messages_prepare(messages: list) -> str:
 
 
 # 添加保活超时配置（5秒）
-KEEP_ALIVE_TIMEOUT = 120
+KEEP_ALIVE_TIMEOUT = 30
 
 
 # ----------------------------------------------------------------------
